@@ -14,11 +14,11 @@ function Repositorios() {
     )
 
     return (
-        <div>
+        <div className='teste' >
             {
                 repos.map((item) => {
                     return (
-                        <div key={item.id}>
+                        <div  key={item.id}>
                             <h3 className='para'>{item.name}</h3>
                             <a href={item.html_url}>Coferir</a>
                         </div>
