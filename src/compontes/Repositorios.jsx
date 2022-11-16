@@ -20,7 +20,7 @@ function Repositorios() {
                     return (
                         <div key={item.id}>
                             <h3 className='para'>{item.name}</h3>
-                            
+                            <a href={item.html_url}>Coferir</a>
                         </div>
                     )
                 })

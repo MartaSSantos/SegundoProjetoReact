@@ -19,6 +19,9 @@ input {
   cursor: pointer;
 }
 
+a{
+ 
+}
 input:hover{
   background-color: bisque;
   border: 2px solid #febe01;
