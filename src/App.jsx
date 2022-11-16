@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Bio />
       <br /> <br />
-      <Pesquisa/>
+      <Pesquisa />
       <Repositorios />
-      <footer>Desenvolvido por <span>Marta S. Saantos</span></footer>
+      <footer>Desenvolvido por <a className='tentativa' href="https://www.linkedin.com/in/marta-santos-4a8309194/" target="_blank" >Marta S. Santos</a></footer>
     </div>
   )
 }
