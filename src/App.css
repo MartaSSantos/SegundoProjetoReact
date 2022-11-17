@@ -24,7 +24,7 @@ input {
 .teste {
 
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 3fr 3fr;
   gap: 20px;
 }
 
@@ -39,6 +39,7 @@ span {
 
 .tentativa{
   color: #febe01;
+  
 }
 
 .para {

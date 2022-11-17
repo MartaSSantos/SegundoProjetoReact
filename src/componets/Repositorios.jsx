@@ -27,15 +27,15 @@ function Repositorios() {
 
     return (
         <>
-            <div className="Search">
-                <input placeholder="Digite um repo" onChange={pegaInput} />
+            <input placeholder="Digite um repo" onChange={pegaInput} />
+            <div className=' teste' >
+
                 {repositoriosFiltrados.map(repositorio => {
                     return (
-                        <>
-                            <h3 key={repositorio.id}>{repositorio.name}</h3>
-                            <p>{repositorio.description}</p>
-                            <a href={repositorio.html_url}>Conferir</a>
-                        </>
+                        <div>
+                            <h3 className='para' key={repositorio.id}>{repositorio.name}</h3>
+                            <a className='tentativa' href={repositorio.html_url}>Conferir</a>
+                        </div>
                     )
                 })}
             </div>
