@@ -27,7 +27,7 @@ function Repositorios() {
 
     return (
         <>
-            <input placeholder="Digite um repo" onChange={pegaInput} />
+            <input placeholder="Digite um repositorio 😃" onChange={pegaInput} />
             <div className=' teste' >
 
                 {repositoriosFiltrados.map(repositorio => {
