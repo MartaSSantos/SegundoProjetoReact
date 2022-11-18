@@ -1,9 +1,6 @@
 import './App.css'
-
-import  Repositorios  from './componets/Repositorios'
+import Repositorios from './componets/Repositorios'
 import Bio from './componets/Bio'
-
-
 
 function App() {
 
